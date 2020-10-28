@@ -91,7 +91,7 @@ public class Main2 {
 		Scanner scan = new Scanner(System.in);
 			
 		System.out.print("Enter your home address \n");
-		String ha = scan.next();
+		String ha = scan.nextLine();
 		System.out.println("Home Address: " + ha +"\n");	
 	}
 	
